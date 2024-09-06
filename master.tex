@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx} % For adding images
+\graphicspath{{images/}}
+
+% Customization
+\newtheorem{definition}{Definition}
+\theoremstyle{definition}
+\newtheorem{example}{Example}[section]
+%GEOMETRY
+\usepackage[letterpaper, top=1.0in, bottom=1.0in, left=1.0in, right=1.0in, heightrounded]{geometry}
+
+%line height
+\renewcommand{\baselinestretch}{1.15}
+
+%parskip and parindent
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+
+\begin{document}
+\section{Chapter 1}
+\input{./Chapter1/Chp1.1.tex}
+\input{./Chapter1/Chp1.2.tex}
+\input{./Chapter1/Chp1.3.tex}
+\end{document}
